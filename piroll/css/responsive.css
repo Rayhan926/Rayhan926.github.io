@@ -1,0 +1,75 @@
+@media only screen and (max-width:999px){
+    .col-lg-3.col-md-6.col-sm-12.project-wrap:nth-child(1){
+        margin-bottom: 4rem;
+    }
+    .col-lg-3.col-md-6.col-sm-12.project-wrap:nth-child(2){
+        margin-bottom: 4rem;
+    }
+    .brand-wrap{
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+@media only screen and (max-width:999px){
+
+    .about-area p{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+}
+
+
+
+@media only screen and (max-width:768px){
+.gallery-area .gallery-wrap .gallery-image{
+	margin: auto 50px;
+	margin-bottom:25px;
+
+}
+    .menu-div{
+        display: none;
+    }
+    .bar-icon-div{
+        display: block;
+    }
+    .top-area .top-content-box h1{
+        font-size: 3.2rem;
+
+    }
+    .project-content-box{
+        text-align: center;
+    }
+    .col-lg-3.col-md-6.col-sm-12.project-wrap{
+        margin-bottom: 3.5rem !important;
+    }
+    .project-area .project-content-box .project-icon-div{
+        width: 100%;
+        float: none;
+        margin-right: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    .project-area .project-content-box .text-div{
+        float: none;
+        width: 100%;
+    }
+    .client-area .client-box{
+        width: 100%;
+    }
+    .client-area .client-box h4{
+        font-size: 2.1rem;
+    }
+    .need-project-area p{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .box-2 {
+        margin-top: 3rem;
+    }
+    .gel-img img {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+}
