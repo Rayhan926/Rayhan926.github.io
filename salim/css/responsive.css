@@ -1,0 +1,125 @@
+@media only screen and (max-width:1200px){
+    .click-div{
+        bottom: -0.1rem;
+    }
+    .card-wrap{
+        height: 28.7rem;
+    }
+    
+}
+
+/*===========================*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*===========================*/
+
+@media only screen and (max-width:1140px){
+    .modern-section .modern-wrap-1 .modern-heading{
+        font-size: 2.2rem;
+    }
+    .brand-section .brand-box .logo img{
+        margin-right: 5rem;
+    }
+    
+}
+
+/*===========================*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*===========================*/
+
+@media only screen and (max-width:1000px){
+    .col-lg-4.col-md-6.last-count {
+        margin: auto;
+    }
+    .work-section .work-box-1 h2{
+        font-size: 2.5rem;
+        line-height: 3.3rem;
+        margin-bottom: 2rem;
+    }
+    .work-section .work-box-1 .desc-box p{
+        font-size: 1.4rem;
+    }
+    .card-wrap{
+        height: 23.5rem;
+    }
+    .spacality-section .spacility-box-1 p,
+    .spacality-section .spacility-box-1 .para-2,
+    .spacality-section .spacility-box-1 .para-3{
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+    }
+
+    .count-div .icon i,.count-div .count span{
+        font-size: 3rem;
+    }
+    .count-div .count h4{
+        font-size: 1.5rem;
+    }
+    .modern-section .modern-wrap-1 .modern-heading {
+        font-size: 2rem;
+    }
+    span.dollar-icon {
+        left: 25rem !important;
+    }
+    .col-lg-4.col-md-12.col-sm-12.price-box .price-wrapper {
+        margin: 2rem 1.5rem;
+    }
+    .problem-box-2{
+        position: relative;
+    }
+    .problem-box-2 img {
+        float: right;
+        margin-right: -2rem;
+    }
+    .price-wrapper ul{
+        margin: 2rem 0;
+    }
+    .footer-section .fooert-tags ul li a{
+        margin: 0.5rem 1.5rem ;
+    }
+    .footer-section .footer-email input{
+        font-size: 2rem;
+    }
+    .footer-section .footer-email input::placeholder{
+        font-size: 3rem;
+    }
+    .brand-section .brand-box .logo img{
+        margin-right: 0rem !important;
+    }
+    
+}
+
+/*===========================*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*===========================*/
+
+@media only screen and (max-width:767px){
+    .work-section .work-btn{
+        margin-bottom: 2.5rem;
+    }
+    img.img-fluid.team-iamge {
+        width: 100% !important;
+        height: auto;
+    }
+    .problem-section img.img-fluid {
+        width: 100%;
+        margin: 0;
+    }
+    .featured-work .button-group button{
+        margin-bottom: 1rem;
+    }
+    .featured-work img.img-fluid {
+        width: 100%;
+        height: auto;
+    }
+    .brand-section .brand-box .brand-wrap{
+        margin: auto;
+    }
+    .looks-section .looks-box-1 h2{
+        font-size: 3.5rem;
+    }
+    .footer-section .fooert-tags ul li a{
+        margin: 0.7rem 1rem;
+        display: block;
+    }
+    
+}
