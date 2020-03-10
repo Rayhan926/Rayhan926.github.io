@@ -1,0 +1,16 @@
+@font-face{
+    font-family: Ceviche_One;
+    src:url("../fonts/Ceviche_One/CevicheOne-Regular.ttf");
+}
+@font-face{
+    font-family: Raleway;
+    src:url("../fonts/Raleway/Raleway-Regular.ttf");
+}
+@font-face{
+    font-family: Raleway_Semi;
+    src:url("../fonts/Raleway/Raleway-SemiBold.ttf");
+}
+@font-face{
+    font-family: Open_Sans;
+    src:url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
