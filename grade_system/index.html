@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Grade System</title>
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link rel="stylesheet" href="./fontawesome-icon/css/all.min.css">
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <div class="wrap">
+      <div class="title">
+         <h2>Student grade System</h2>
+      </div>
+      <div class="sub_wrap">
+         <div class="row">
+            <div class="col-lg-7 -col-md-7 sub-number">
+               <div class="sub-number-wrap">
+                  <h4>Subject Number</h4>
+                  
+                     <input type="number" placeholder="Bangla" class="form-control" id="ban">
+                     <input type="number" placeholder="English" class="form-control" id="eng">
+                     <input type="number" placeholder="Math" class="form-control" id="math">
+                     <input type="number" placeholder="Physics" class="form-control" id="phy">
+                     <input type="number" placeholder="Chamestry" class="form-control" id="cham">
+                     <input type="number" placeholder="Bioloyg" class="form-control" id="bio">
+                     <input type="number" placeholder="I.C.T" class="form-control" id="ict">
+                     <input type="number" placeholder="Relegion" class="form-control" id="rel">
+                     <input type="submit" value="Get Result" id="result_btn"> 
+                     <span class="sync-icon"><i class="fas fa-sync-alt"></i></span>
+                  
+               </div>
+            </div>
+            <div class="col-lg-5 -col-md-5 single-sub-grade">
+               <div class="row">
+                  <div class="col-lg-6 point">
+                     <div class="point-wrap">
+                        <h4>Point</h4>
+                        <input type="number" placeholder="Point"class="form-control" id="ban-point">
+                        <input type="number" placeholder="Point"class="form-control" id="eng-point">
+                        <input type="number" placeholder="Point"class="form-control" id="math-point">
+                        <input type="number" placeholder="Point"class="form-control" id="phy-point">
+                        <input type="number" placeholder="Point"class="form-control" id="cham-point">
+                        <input type="number" placeholder="Point"class="form-control" id="bio-point">
+                        <input type="number" placeholder="Point"class="form-control" id="ict-point">
+                        <input type="number" placeholder="Point"class="form-control" id="rel-point">
+                     </div>
+                  </div>
+                  <div class="col-lg-6 grade">
+                     <div class="grade-wrap">
+                        <h4>Grade</h4>
+                        <input type="text" placeholder="Grade"class="form-control" id="ban-grade">
+                        <input type="text" placeholder="Grade"class="form-control" id="eng-grade">
+                        <input type="text" placeholder="Grade"class="form-control" id="math-grade">
+                        <input type="text" placeholder="Grade"class="form-control" id="phy-grade">
+                        <input type="text" placeholder="Grade"class="form-control" id="cham-grade">
+                        <input type="text" placeholder="Grade"class="form-control" id="bio-grade">
+                        <input type="text" placeholder="Grade"class="form-control" id="ict-grade">
+                        <input type="text" placeholder="Grade"class="form-control" id="rel-grade">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="resutl_div text-center">
+         <div class="alert">&nbsp;<b id="congar"> "<span class="spinner-border loader" role="status">
+      <span class="sr-only"></span>
+   </span>" </b>&nbsp;</div>
+         <div class="result_text">
+            <p>Out of &nbsp;<b id="out_of">  "<span class="spinner-border loader" role="status">
+      <span class="sr-only"></span>
+   </span>" </b>&nbsp; you got &nbsp;<b id="gotmark"> "<span class="spinner-border loader" role="status">
+      <span class="sr-only"></span>
+   </span>" </b>&nbsp; and parcentage is &nbsp;<b id="parcent"> "" </b>&nbsp;.</p>
+            <p>Your grade is &nbsp;<b id="grade"> "<span class="spinner-border loader" role="status">
+      <span class="sr-only"></span>
+   </span>" </b> &nbsp;. Your point is &nbsp;<b id="point"> "<span class="spinner-border loader" role="status">
+      <span class="sr-only"></span>
+   </span>" </b></p>
+             <b id="extra"> </b> <p>You are &nbsp; <b id="pass_fail"> "<span class="spinner-border loader" role="status">
+      <span class="sr-only"></span>
+   </span>" </b></p>
+         </div>
+         <button type="reset" class="reset_btn" onclick="return confirm('Are you sure to RESET THIS PAGE')">Reset</button>
+      </div>
+      <div class="warning"></div>
+   </div>
+   
+
+
+               
+           
+
+
+   <script src="./js/jquery331.js"></script>
+   <script src="./js/bootstrap.min.js"></script>
+   <script src="./js/main.js"></script>
+</body>
+</html>

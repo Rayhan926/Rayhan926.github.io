@@ -1,0 +1,227 @@
+@font-face{
+   font-family: Montserrat;
+   src: url(../Montserrat/Montserrat-Bold.ttf)
+}
+@font-face{
+   font-family: Montserrat_re;
+   src: url(../Montserrat/Montserrat-Regular.ttf)
+}
+:root{
+   --Montserrat: 'Montserrat',sans-serif;
+   --Montserrat_re: 'Montserrat_re',sans-serif;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: var(--Montserrat);
+   background: #8d8d8d;
+}
+html{
+   font-size: 10px;
+   scroll-behavior: smooth;
+}
+.wrap{
+   width: 65%;
+   margin: auto;
+   margin-top: 5rem;
+   margin-bottom: 5rem;
+   padding: 2.5rem 2rem 2rem 2rem;
+   box-shadow: 0px 0px 5px 4px #000000c7;
+   background: white;
+}
+.wrap .title{
+   text-align: center;
+   margin-bottom: 4rem;
+}
+.wrap .title h2{
+   font-family: var(--Montserrat);
+   font-size: 2.8rem;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: black;
+}
+.col-lg-7, .col-lg-5, .col-lg-6{
+   padding: 0 1.2rem !important;
+}
+.sub_wrap h4{
+   text-align: left;
+   color: #181818;
+   font-family: var(--Montserrat);
+   font-size: 1.6rem;
+   margin-bottom: 1.3rem;
+}
+.sub_wrap input {
+   padding: 15px 8px;
+   margin-bottom: 12px;
+   color: black;
+   font-weight: bold;
+   font-size: 16px;
+   border: 1px solid rgb(182, 182, 182);
+}
+.sub_wrap input:focus{
+   border: 1.5px solid black;
+   box-shadow: none !important;
+}
+.sub_wrap input::placeholder{
+   font-size: 13px;
+}
+#result_btn{
+   padding: 8px 15px;
+   margin-bottom: 5px;
+   margin-top: 15px;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   font-size: 15px;
+   background: rgb(29, 197, 29);
+   width: 38%;
+   margin: auto;
+   display: block;
+   border: none;
+   outline: none;
+   float: left;
+   margin-left: 120px;
+}
+#result_btn:hover{
+   background: rgb(32, 184, 230);
+   color: #ffffff;
+}
+.resutl_div{
+   font-family: var(--Montserrat_re);
+   font-weight: 600;
+   color: rgb(41, 41, 41);
+   font-size: 1.5rem;
+   margin-top: 20px;
+}
+.resutl_div b{
+   font-family: var(--Montserrat);
+   color: black;
+   font-size: 1.7rem;
+}
+.resutl_div p{
+   margin: 0;
+   line-height: 2.7rem;
+}
+.resutl_div .alert{
+   margin-bottom: 0;
+}
+.red_bg{
+   background: red !important;
+   color: #ffffff !important;
+   font-size: 1.5rem !important;
+}
+input.red_bg::placeholder{
+   color: #ffffff !important;
+}
+.tra_bg{
+   background: none !important;
+   color: black !important;
+}
+.color{
+   color: rgb(0, 190, 0) !important;
+}
+.red_color{
+   color: red !important;
+}
+.bg_red{
+
+   background: rgb(177, 0, 0) !important;
+   color: #ffffff !important;
+}
+.spinner-border {
+   display: inline-block;
+   width: 2rem;
+   height: 2rem;
+   vertical-align: text-bottom;
+   border: .10em solid currentColor;
+   border-right-color: transparent;
+   border-radius: 50%;
+   -webkit-animation: spinner-border .75s linear infinite;
+   animation: spinner-border .75s linear infinite;
+}
+.loader{
+   font-weight: normal !important;
+   color: rgb(0, 0, 0);
+   display: none;
+}
+.show_loader{
+   display: inline-block;
+}
+.reset_btn{
+   padding: 5px 15px;
+   border: none;
+   background: rgb(0, 153, 140);
+   color: #ffffff;
+   font-family: var(--Montserrat);
+   margin-top: 2rem;
+   outline: none !important;
+   box-shadow: none !important;
+}
+.reset_btn:hover{
+   color: black;
+   background: rgb(0, 226, 207);
+}
+span.sync-icon i{
+   text-align: center;
+   margin-top: 1rem;
+   font-size: 1.5rem;
+   animation: syncrotate 1.2s linear infinite;
+   float: left;
+   margin-left: 15px;
+   display: none;
+   color: black;
+}
+@keyframes syncrotate {
+   0%{
+      transform: rotate(180deg);
+   }50%{
+      transform: rotate(-180deg);
+   }100%{
+      transform: rotate(180deg);
+   }
+}
+.sho_sync{
+   display: inline-block !important;
+}
+
+.sub-number-wrap {
+   text-align: center;
+}
+.bg_green{
+   background: rgb(0, 190, 0) !important;
+}
+.warning{
+   text-align: center;
+}
+.warning span{
+   color: red;
+   font-family: var(--Montserrat);
+   font-size: 16px;
+   margin-top: 14px;
+   font-weight: bold;
+   display: block;
+
+}
+.no_war{
+   display: none !important;
+}
+
+@media only screen and (max-width:770px){
+   #result_btn{
+      margin-left: 140px ;
+      margin-bottom: 20px;
+   }
+}
+@media only screen and (max-width:580px){
+   #result_btn{
+      margin: auto;
+      margin-bottom: 20px;
+   }
+   span.sync-icon i {
+      float: right;
+      margin-left: 0;
+      margin-right: 20px;
+   }
+}
