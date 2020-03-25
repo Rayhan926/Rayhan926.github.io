@@ -500,7 +500,7 @@ button,input{
 }
 .showcase-area .button-group button{
    background: rgba(255, 0, 0, 0) !important;
-   margin-bottom: 0.9rem;
+   margin-bottom: 0.9rem !important;
 }
 /*=========News Letter Area Start==============*/
 
@@ -747,6 +747,9 @@ button,input{
       padding-top: 6rem;
       margin-top: 3rem !important;
    }
-
+   .showcase-area .button-group button{
+      background: rgba(255, 0, 0, 0) !important;
+      margin-bottom: 0.9rem !important;
+}
 
 }
