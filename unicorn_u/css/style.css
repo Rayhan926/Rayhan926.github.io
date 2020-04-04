@@ -1,0 +1,327 @@
+@import url(./fonts.css);
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html{
+   font-size: 10px;
+   scroll-behavior: smooth;
+}
+body{
+   font-family: var(--Source_Sans_Pro);
+   color: #212221;
+   overflow-x: hidden;
+}
+
+:root{
+   --Source_Sans_Pro:'Source_Sans_Pro',sans-serif;
+
+   
+}
+p{
+   color: #212121 !important;
+   font-size: 1.6rem;
+   font-family: var(--Source_Sans_Pro);
+   font-weight: normal;
+
+}
+h1{
+   font-size: 5rem;
+   font-weight: bold;
+   color: rgb(26, 26, 26);
+   letter-spacing: 0.2rem;
+}
+h3{
+   color: #181818;
+   font-weight: bold;
+   font-size: 2.7rem;
+   font-family: var(--Source_Sans_Pro);
+   text-transform: capitalize;
+   margin-bottom: 3.5rem;
+}
+a{
+   color: #222222;
+   text-decoration: none !important;
+}
+ul{
+   list-style-type: none;
+}
+img{
+   max-width: 100%;
+   height: auto;
+}
+.my-para{
+   color: #212121;
+   font-size: 1.5rem;
+   font-weight: normal;
+   line-height: 3rem;
+}
+section{
+   padding-top: 10rem;
+}
+button{
+   outline: none !important;
+   border: none !important;
+}
+
+/*===========Header Area=============*/
+.header-area{
+   height: 115vh;
+   background: url(../img/header-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.header-area .logo-menu-div{
+   padding-top: 2.5rem;
+}
+.header-area .logo-menu-div .logo-div{
+   float: left;
+}
+.header-area .logo-menu-div .logo-div a{
+   display: block;
+   font-size: 2.2rem;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: var(--Source_Sans_Pro);
+   color: #212121;
+}
+.header-area .logo-menu-div .main-menu-div{
+   float: right;
+}
+.header-area .logo-menu-div .main-menu-div ul li{
+   float: left;
+   padding: 0.3rem 0.5rem;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+}
+.header-area .logo-menu-div .main-menu-div ul li a{
+   display: block;
+   font-size: 1.5rem;
+   color: #212121;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin: 0 0.5rem;
+   letter-spacing: 0.1rem;
+   transition: 0.4s;
+   margin: 0 0.5rem;
+
+}
+.header-area .logo-menu-div .main-menu-div ul li a::before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: -120%;
+   width: 100%;
+   height: 100%;
+   background: #212121;
+   transition: 0.4s;
+   z-index: -1;
+}
+.header-area .logo-menu-div .main-menu-div ul li:hover a::before{
+   left: 0%;
+}
+.header-area .logo-menu-div .main-menu-div ul li:hover a{
+   color: #ffffff;
+}
+.header-area .heading-div{
+   text-transform: uppercase;
+   margin-top: 14rem;
+   position: relative;
+   padding-bottom: 0.4rem;
+}
+.header-area .heading-div h1::before{
+   content: "";
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 15%;
+   height: 0.3rem;
+   background: #212121;
+}
+.header-area .heading-content{
+   margin-top: 2rem;
+}
+.header-area .heading-content p{
+   width: 46%;
+   margin: 0 0 0 auto;
+   line-height: 2.8rem;
+
+}
+.header-area .heading-content a{
+   color: #212212;
+   font-size: 1.5rem;
+   text-transform: lowercase;
+   padding: 0.5rem 5rem;
+   border: 0.2rem solid #212212;
+   display: inline-block;
+   margin-top: 2.5rem;
+   transition: 0.4s;
+}
+.header-area .heading-content a:hover{
+   background: #212212;
+   color: #ffffff;
+}
+/*===================Why Area Start============ */
+
+.why-para h3{
+   text-transform: capitalize;
+   margin-bottom: 3.5rem;
+}
+.why-area .why-img{
+   margin-bottom: 1rem;
+
+}
+/*===================Feature Area Start============ */
+
+.feature-area .feature-icon{
+   margin-bottom: 2rem;
+   transition: 0.5s;
+   
+}
+.feature-area .feature-content h4{
+   font-weight: bold;
+   color: #212121;
+   font-size: 1.7rem;
+   margin-bottom: 1.5rem;
+   transition: 0.4s;
+
+}
+.feature-area .feature-content p{
+   font-size: 1.5rem;
+   color: #313131;
+   line-height: 2.3rem;
+}
+.feature-area .feature-box{
+   padding: 1rem;
+   border-radius: 0.8rem;
+   border-bottom: 0.5rem solid #212122;
+   transition: 0.4s;
+   margin: 2rem 0;
+}
+.feature-area .feature-box:hover{
+   transform: translateY(-1.5rem);
+   border-bottom: 0.5rem solid rgb(0, 195, 230);
+}
+.feature-area .feature-box:hover .feature-icon{
+   transform: translateX(11rem);
+}
+
+
+/*===================Article Area Start============ */
+
+
+.article-wrap{
+   position: relative;
+   overflow: hidden;
+   margin: 2rem 0;
+}
+
+.article-area .article-box{
+   padding: 3.5rem;
+   background: #222222;
+   color: #ffffff;
+}
+.article-area .article-box::after{
+   position: absolute;
+   content: "";
+   top: 0;
+   left: 45%;
+   width: 10%;
+   height: 0.5rem;
+   background: #e64a19;
+   text-align: center;
+   transition: 0.3s;
+   overflow: hidden;
+}
+.article-wrap:hover .article-box::after{
+   width: 70%;
+   left: 15%;
+}
+.article-area .article-box h4{
+   font-size: 2.1rem;
+   margin-bottom: 4rem;
+}
+.article-area .article-img{
+   margin-top: 7rem;
+}
+.article-area .article-box .ar-img{
+   margin-top: -1rem;
+}
+.article-area .article-box .ar-con{
+   margin-left: 8rem;
+   margin-top: 2rem;
+}
+.article-area .article-box .ar-con p{
+   color: #ffffff !important;
+   margin: 0.2rem;
+   margin-top: 2rem;
+}
+.comic-row{
+   margin-top: 8rem;
+}
+
+
+.port-hr{
+   width: 5rem;
+   height: 0.5rem;
+   background: #e64a19;
+   margin: auto;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+}
+.port-area .button-group-m button{
+   border: none;
+   outline: none;
+   padding: 0.3rem 1rem;
+   margin: 0 1rem;
+   font-size: 1.5rem;
+   background: transparent;
+   transition: 0.3s;
+}
+.port-area .button-group-m button:hover{
+   background: #e64a19;
+   color: #ffffff;
+}
+.slider_img{
+   width: 70% !important;
+}
+
+.gallery-div{
+   margin-top: 3rem;
+}
+.gal-img{
+   height: 25rem;
+   max-width: 100% !important;
+   object-fit: cover;
+}
+
+.gal_active{
+   background: #e64a19 !important;
+   color: rgb(255, 255, 255) !important;
+}
+.side-icon{
+   position: fixed;
+   top: 40%;
+   right: -5%;
+   z-index: 10;
+   padding: 0.5rem 1rem;
+   background: black;
+   transition: 0.6s;
+}
+.show_go{
+   right: 0 !important;
+}
+.side-icon a{
+   display: block;
+   margin: 1rem 0;
+   font-size: 1.8rem;
+   color: #ffffff;
+   text-decoration: none;
+   transition: 0.3s;
+}
+.side-icon a:hover{
+   color: #0a8ae6;
+}
