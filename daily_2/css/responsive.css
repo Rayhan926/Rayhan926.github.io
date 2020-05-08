@@ -1,0 +1,116 @@
+
+/*--------------When the viewport is equal or less than 340px------------------*/
+
+@media only screen and (max-width:340px){
+    .header_area .main-menu .navbar{
+        padding: 20%;
+        margin: -10%;
+        margin-left: 77%;
+    }
+    .navbar_fixed{
+        position: fixed;;
+        width: 40%;
+        height: 10%;
+        top: -1px;
+        left: 0;
+        right: 0;
+        background: #ffffff;
+        transition: background 0.7s ease;
+        z-index: 999;
+        box-shadow: var(--box-shadow);
+    }
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 15rem;
+        margin-left: 50px;
+    }
+    .site-main .services-area .services-title{
+        padding: 0rem 0rem !important;
+    }
+    .card-body {
+        padding: 0;
+    }
+    .site-main .project-area .button-group button{
+        margin: 0 !important;
+    }
+    .site-main .project-area .button-group button + button {
+        padding: 0px 3px;
+    }
+    .site-main .about-area .about-title .mypara {
+        padding: 1rem 0rem;
+    }
+    .title-h1 {
+        font: normal bold 22px/40px var(--roboto);
+    }
+}
+
+/*--------------When the viewport is equal or less than 792px------------------*/
+
+@media only screen and (max-width:792px){
+    .site-main .about-area h2 > span{
+        font: normal bold 30px/40px var(--roboto);
+        letter-spacing: 4px;
+    }
+    .site-main .services-area .services-title{
+        padding: 0rem 6rem;
+    }
+    .site-main .services-area .services{
+        margin: 1rem 0.5rem;
+        padding: 0.7rem 0rem;
+    }
+    .project-area .container .pb-5, .py-5{
+        text-align: center;
+        padding-bottom: 10px !important;
+    }
+    .site-main .project-area .button-group button{
+        margin: 0px 18px;
+    }
+    .site-main .about-area {
+        padding-top: 0;
+    }
+    .site-main .subscribe-us-area .subscribe{
+        background-position: center;
+    }
+    .site-main .subscribe-us-area .subscribe form .btn-submit button {
+        padding: 0.7rem 7rem;
+        margin: 21px -147px 0px 0px;
+    }
+    .site-main .site-banner{
+        background: none;
+    }
+    .site-main .site-banner .site-title h3{
+        padding-top: 10%;
+    }
+    .site-main .project-area{
+        padding-top: 1.5rem;
+    }
+    .site-main .services-area{
+        padding-bottom: 1rem;
+    }
+    .site-main .about-area .about-title .mypara {
+        padding: 1rem 0rem;
+    }
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        margin-left: 20px;
+    }
+    .site-main .subscribe-us-area .subscribe form .btn-submit button{
+        margin: 21px -132px 0px 0px;
+    }
+    footer.footer-area .social a>i{
+        padding: 1rem;
+    }
+    footer.footer-area{
+        padding: 0rem 0rem;
+    }
+    .site-main .subscribe-us-area .subscribe{
+        padding: 3rem 0rem;
+    }
+
+
+}
+
+    /*--------------When the viewport is equal or less than 1130px------------------*/
+
+
