@@ -881,6 +881,9 @@ nav{
     }
 }
 @media only screen and (max-width:580px){
+    .hero_area{
+        height: 115vh;
+    }
     .ham_wrap{
         right: 10px;
     }
