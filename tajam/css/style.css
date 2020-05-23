@@ -883,6 +883,7 @@ nav{
 @media only screen and (max-width:580px){
     .ham_wrap{
         right: 10px;
+    }
     nav{
         padding: 0 4rem 0 2rem;
     }
