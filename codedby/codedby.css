@@ -57,6 +57,7 @@ a{
 }
 .close_coded_by span{
    color: #222222;
+   font-size: 12px;
 }
 .coded_fixed_wrap .author_img{
    width: 80px;
