@@ -64,7 +64,7 @@ a{
    border-radius: 50%;
    overflow: hidden;
    margin: auto;
-   height: auto;
+   /*height: auto;*/
    margin-bottom: 10px;
 }
 .coded_fixed_wrap .author_img img{
